@@ -1,12 +1,21 @@
 body {
     background-color: #E5E5E5;
 }
-ul {
+.list {
     list-style: none;
 }
+
+/* page navigation */
 .logo-first-part {
     color: #2196F3;
 }
 .logo-second-part {
     color: #000000;
+}
+.page-nav .link{
+    color: #212121;
+}
+.page-nav .link:hover,
+.page-nav .link:focus {
+    color: #2196F3;
 }
