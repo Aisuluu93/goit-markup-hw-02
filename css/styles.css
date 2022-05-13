@@ -5,7 +5,7 @@ body {
     list-style: none;
 }
 
-/* page navigation */
+/* header */
 .logo-first-part {
     color: #2196F3;
 }
@@ -19,3 +19,20 @@ body {
 .page-nav .link:focus {
     color: #2196F3;
 }
+.contact-info .link{
+    color: #757575;
+}
+.contact-info .link:focus,
+.contact-info .link:hover{
+    color: #2196F3;
+}
+
+/* hero */
+
+/* company's policy */
+
+/* what we do */
+
+/* our team */
+
+/* footer */
