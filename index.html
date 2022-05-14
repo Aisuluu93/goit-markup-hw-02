@@ -5,12 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WebStudio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
     <header>
         <nav>
-            <a href="./index.html"> <span class="logo-first-part">Web</span><span class="logo-second-part">Studio</span> </a>
+            <a href="./index.html" class="logo"> <span class="nav-web">Web</span><span class="nav-studio">Studio</span> </a>
             <ul class="list page-nav">
                 <li><a href="./index.html" class="link">Студия</a></li>
                 <li><a href="./portfolio.html" class="link">Портфолио</a></li>
@@ -24,73 +25,73 @@
     </header>
     <main>
         <section class="hero">
-            <h1 class="title">Эффективные решения <br /> для вашего бизнеса</h1>
-            <button type="button">Заказать услугу</button>
+            <h1 class="title">ЭФФЕКТИВНЫЕ РЕШЕНИЯ<br />ДЛЯ ВАШЕГО БИЗНЕСА</h1>
+            <button type="button" class="hero-button">Заказать услугу</button>
         </section>
-        <section>
-            <h2>Политика компании</h2>
+        <section class="section">
+            <h2 class="section-title advantages-title">Политика компании</h2>
             <!-- заголовок будет скрыт -->
-            <ul class="list">
+            <ul class="list advantages">
                 <li>
-                    <h3>Внимание к деталям</h3>
-                    <p>Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
+                    <h3 class="title">Внимание к деталям</h3>
+                    <p class="policy-p">Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
                 </li>
                 <li>
-                    <h3>Пунктуальность</h3>
-                    <p>Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
+                    <h3 class="title">Пунктуальность</h3>
+                    <p class="policy-p">Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
                 </li>
                 <li>
-                    <h3>Планирование</h3>
-                    <p>Равным образом консультация с широким активом в значительной степени обуславливает.</p>
+                    <h3 class="title">Планирование</h3>
+                    <p class="policy-p">Равным образом консультация с широким активом в значительной степени обуславливает.</p>
                 </li>
                 <li>
-                    <h3>Современные технологии</h3>
-                    <p>Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
+                    <h3 class="title">Современные технологии</h3>
+                    <p class="policy-p">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
                 </li>
             </ul>
         </section>
-        <section>
-            <h2>Чем мы занимаемся</h2>
+        <section class="section">
+            <h2 class="section-title works">Чем мы занимаемся</h2>
             <ul class="list">
                 <li><img src="./images/what_we_do_1.jpg" alt="Чем мы занимаемся_1" width="370"></li>
                 <li><img src="./images/what_we_do_2.jpg" alt="Чем мы занимаемся_2" width="370"></li>
                 <li><img src="./images/what_we_do_3.jpg" alt="Чем мы занимаемся_3" width="370"></li>
             </ul>
         </section>
-        <section>
-            <h2>Наша команда</h2>
+        <section class="section">
+            <h2 class="section-title team">Наша команда</h2>
             <ul class="list">
                 <li>
                     <img src="./images/product_designer.jpg" alt="product_designer_photo" width="270">
-                    <h3>Игорь Демьяненко</h3>
-                    <p>Product Designer</p>
+                    <h3 class="team-member">Игорь Демьяненко</h3>
+                    <p class="team-position">Product Designer</p>
                 </li>
                 <li>
                     <img src="./images/frontend_developer.jpg" alt="frontend_developer_photo" width="270">
-                    <h3>Ольга Репина</h3>
-                    <p>Frontend Developer</p>
+                    <h3 class="team-member">Ольга Репина</h3>
+                    <p class="team-position">Frontend Developer</p>
                 </li>
                 <li>
                     <img src="./images/marketing.jpg" alt="marketing_photo" width="270">
-                    <h3>Николай Тарасов</h3>
-                    <p>Marketing</p>
+                    <h3 class="team-member">Николай Тарасов</h3>
+                    <p class="team-position">Marketing</p>
                 </li>
                 <li>
                     <img src="./images/ui_designer.jpg" alt="ui_designer_photo" width="270">
-                    <h3>Михаил Ермаков</h3>
-                    <p>UI Designer</p>
+                    <h3 class="team-member">Михаил Ермаков</h3>
+                    <p class="team-position">UI Designer</p>
                 </li>
             </ul>
         </section>
     </main>
-    <footer>
+    <footer class="footer">
         <div>
-            <a href="./index.html"> <span>Web</span><span>Studio</span> </a>
-            <address>
-                <p>г. Киев, пр-т Леси Украинки, 26</p>
-                <ul class="list">
-                    <li><a href="mailto:info@devstudio.com">info@example.com</a></li>
-                    <li><a href="tel:+380961111111">+38 099 111 11 11</a></li>
+            <a href="./index.html" class="logo"> <span class="foot-web">Web</span><span class="foot-studio">Studio</span> </a>
+            <address class="adress">
+                <p class="adress-p">г. Киев, пр-т Леси Украинки, 26</p>
+                <ul class="list footer-contact">
+                    <li><a href="mailto:info@devstudio.com" class="link">info@example.com</a></li>
+                    <li><a href="tel:+380961111111" class="link">+38 099 111 11 11</a></li>
                 </ul>
             </address>        
         </div>
