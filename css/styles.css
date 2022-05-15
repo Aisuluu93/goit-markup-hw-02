@@ -7,6 +7,7 @@
     --navigation-color: #000000;
     --project-btn-background: #F5F4FA;
     --footer-contact-color: rgba(255, 255, 255, 0.6);
+    --hero-btn-hover: #188CE8;
 }
 body {
     background-color: var(--button-color);
@@ -40,6 +41,9 @@ body {
 .page-nav .link:focus {
     color: var(--accent-color);
 }
+.page-nav .link.current{
+    color: var(--accent-color);
+}
 .contact-info .link{
     text-decoration: none;
     color: var(--text-color);
@@ -61,6 +65,7 @@ body {
     font-weight: 900;
     font-size: 44px;
     line-height: 1.4;
+    text-transform: uppercase;
 }
 .hero .hero-button{
     background-color: var(--accent-color);
@@ -69,6 +74,10 @@ body {
     font-size: 16px;
     line-height: 1.9;
     cursor: pointer;
+}
+.hero .hero-button:hover,
+.hero .hero-button:focus{
+    background-color: var(--hero-btn-hover);
 }
 
 /* sections */
@@ -83,6 +92,7 @@ body {
     color: var(--title-text-color);
     font-size: 14px;
     line-height: 1.1;
+    text-transform: uppercase;
 }
 .advantages .policy-p{
     color: var(--text-color);
@@ -97,6 +107,9 @@ body {
 }
 
 /* our team */
+.team-sec{
+    background-color: var(--project-btn-background);
+}
 .team{
     font-size: 36px;
     line-height: 1.2;
@@ -131,6 +144,9 @@ body {
 .project-button:focus{
     background-color: var(--accent-color);
     color: var(--button-color);
+}
+.project-link{
+    text-decoration: none;
 }
 .projects .name{
     color: var(--title-text-color);
